@@ -1,0 +1,21 @@
+{
+  "name": "eu-popup",
+  "version": "0.0.5",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/eu-popup.umd.js",
+  "module": "fesm5/eu-popup.js",
+  "es2015": "fesm2015/eu-popup.js",
+  "esm5": "esm5/eu-popup.js",
+  "esm2015": "esm2015/eu-popup.js",
+  "fesm5": "fesm5/eu-popup.js",
+  "fesm2015": "fesm2015/eu-popup.js",
+  "typings": "eu-popup.d.ts",
+  "metadata": "eu-popup.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
