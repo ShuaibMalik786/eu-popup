@@ -1,4 +1,4 @@
-# ElasticUi
+# eu-popup
 
 Pop up service for Angular
 
