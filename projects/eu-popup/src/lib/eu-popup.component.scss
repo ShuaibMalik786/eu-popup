@@ -1,0 +1,56 @@
+/*dialog css*/
+.eu-dialog-overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .32);
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.eu-dialog-overlay .dialog {
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 0.125rem;
+    -moz-border-radius: 0.125rem;
+    border-radius: 0.125rem;
+    -webkit-animation: pop 0.2s;
+    -o-animation: pop 0.2s;
+    animation: pop 0.15s;
+    padding: 1.25em;
+    border: none;
+    border-radius: .3125em;
+    background: #fff;
+    font-family: inherit;
+    font-size: 1rem;
+    max-width: 100vw;
+    width: 26rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+      .eu-dialog-overlay .dialog {
+        max-width: 80vw;
+        min-width: 80vw;
+      }
+    }
+  
+  
+  @-webkit-keyframes pop {
+    1% {
+      -webkit-transform: scale(0.5, 0.5);
+    }
+    100% {
+      -webkit-transform: scale(1, 1);
+    }
+  }
+  
+  
+  
