@@ -1,6 +1,17 @@
 {
   "name": "eu-popup",
   "version": "0.0.9",
+  "keywords": [
+    "angular",
+    "angular 6",
+    "alert",
+    "typescript",
+    "popup",
+    "pop up",
+    "dialog box"
+  ],
+  "license": "BSD-3-Clause",
+  "author": "Shuaib",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
