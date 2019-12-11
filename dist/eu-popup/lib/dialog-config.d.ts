@@ -6,4 +6,8 @@ export declare class DialogConfig {
     cancelButtonText?: string;
     confirmButtonText?: string;
     dismissOnClickOutside?: boolean;
+    confirmButtonBgColor?: string;
+    cancelButtonBgColor?: string;
+    cancelButtonTextColor?: string;
+    confirmButtonTextColor?: string;
 }

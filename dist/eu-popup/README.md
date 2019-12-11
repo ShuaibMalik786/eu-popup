@@ -1,6 +1,9 @@
-# eu-popup
+## eu-popup
 
 Pop up service for Angular
+
+## Demo
+[Demo link](http://elastic-style.herokuapp.com/eu-popup)
 
 ## Getting started
 
@@ -47,13 +50,17 @@ Open popup by calling the service -
 
 # Options
 
-| Option                | Type          | Default   | Values         |
-| --------------------- |:-------------:| :--------:| --------------:|
-| type                  | string        | undefined | error, success, warning, info |
-| title                 | string        | undefined | any string     |
-| text                  | string        | undefined | any string     |
-| cancelButtonText      |  string       | undefined | any string     |
-| confirmButtonText     |  string       | undefined | any string     |
-| dismissOnClickOutside |  boolean      | false     | true or false  |
+| Option                 |  Type   |  Default  |                        Values |
+|------------------------|:-------:|:---------:|------------------------------:|
+| type                   | string  | undefined | error, success, warning, info |
+| title                  | string  | undefined |                    any string |
+| text                   | string  | undefined |                    any string |
+| cancelButtonText       | string  | undefined |                    any string |
+| confirmButtonText      | string  | undefined |                    any string |
+| confirmButtonBgColor   | string  | undefined |                    any string |
+| cancelButtonBgColor    | string  | undefined |                    any string |
+| confirmButtonTextColor | string  | undefined |                    any string |
+| confirmButtonTextColor | string  | undefined |                    any string |
+| dismissOnClickOutside  | boolean |   false   |                 true or false |
 
 

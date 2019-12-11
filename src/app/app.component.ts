@@ -22,8 +22,12 @@ export class AppComponent implements OnInit {
       title: 'OOPS',
       text: 'I am a dynamic component inside of a dialog!',
       showCancelButton: true,
-      cancelButtonText: 'No, cancel!',
-      confirmButtonText: 'yes',
+      // cancelButtonText: 'No',
+      // confirmButtonText: 'Yes',
+      // confirmButtonBgColor: 'purple',
+      // cancelButtonBgColor: 'purple',
+      // confirmButtonTextColor: 'white',
+      // cancelButtonTextColor: 'white',
       // dismissOnClickOutside: false,
 
     }
