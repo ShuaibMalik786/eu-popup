@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { EuPopupService } from 'eu-popup';
+import {Component, OnInit} from '@angular/core';
+import {EuPopupService} from 'eu-popup';
 
 @Component({
   selector: 'app-root',
@@ -18,19 +18,20 @@ export class AppComponent implements OnInit {
 
   open() {
     this.euPopupService.open({
-      type: 'error',
-      title: 'OOPS',
-      text: 'I am a dynamic component inside of a dialog!',
-      showCancelButton: true,
-      // cancelButtonText: 'No',
-      // confirmButtonText: 'Yes',
-      // confirmButtonBgColor: 'purple',
-      // cancelButtonBgColor: 'purple',
-      // confirmButtonTextColor: 'white',
-      // cancelButtonTextColor: 'white',
-      // dismissOnClickOutside: false,
+        type: 'info',
+        // title: 'OOPS',
+        text: 'I am a dynamic component inside of a dialog!',
+        showCancelButton: false,
+        showOkButton: false,
+        // cancelButtonText: 'No',
+        // confirmButtonText: 'Yes',
+        // confirmButtonBgColor: 'purple',
+        // cancelButtonBgColor: 'purple',
+        // confirmButtonTextColor: 'white',
+        // cancelButtonTextColor: 'white',
+        dismissOnClickOutside: false,
 
-    }
+      }
     ).afterClosed.subscribe(result => {
       console.log(result);
     });

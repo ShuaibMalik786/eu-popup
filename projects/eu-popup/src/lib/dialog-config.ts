@@ -3,6 +3,7 @@ export class DialogConfig {
   title?: string;
   text?: string;
   showCancelButton?: boolean;
+  showOkButton?: boolean;
   cancelButtonText?: string;
   confirmButtonText?: string;
   dismissOnClickOutside? = true;

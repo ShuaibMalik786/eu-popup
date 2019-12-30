@@ -19,7 +19,7 @@
   <div class="title">{{config?.title}}</div>
   <div class="text">{{config?.text}}</div>
   <div class="actions">
-    <button class="button" (click)="onOk()" [ngStyle]="{'background-color': config?.confirmButtonBgColor ? config?.confirmButtonBgColor : 'rgba(5, 122, 255, 0.87);',
+    <button class="button" *ngIf="config.showOkButton" (click)="onOk()" [ngStyle]="{'background-color': config?.confirmButtonBgColor ? config?.confirmButtonBgColor : 'rgba(5, 122, 255, 0.87);',
       'color': config?.confirmButtonTextColor ? config?.confirmButtonTextColor : 'rgba(5, 122, 255, 0.87);'}">
       {{config?.confirmButtonText ? config?.confirmButtonText : 'OK'}}</button>
     <button *ngIf="config.showCancelButton" class="button" (click)="onCancel()" [ngStyle]="{'background-color': config?.cancelButtonBgColor ? config?.cancelButtonBgColor : 'rgba(5, 122, 255, 0.87);',

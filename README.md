@@ -58,5 +58,7 @@ Open popup by calling the service -
 | cancelButtonText      | string  | undefined |                    any string |
 | confirmButtonText     | string  | undefined |                    any string |
 | dismissOnClickOutside | boolean |   false   |                 true or false |
+| showCancelButton      | boolean |   false   |                 true or false |
+| showOkButton          | boolean |   false   |                 true or false |
 
 
